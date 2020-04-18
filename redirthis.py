@@ -35,7 +35,6 @@ async def gen_tasks(session, urls, payloads, keyword):
 async def getResponse(session, url, payload, keyword):
 
     r_url = url.replace(keyword, payload)
-    print(r_url)
     async with session.get(r_url, allow_redirects=True, timeout=10) as response:
         history = response.history
         locations = f"{r_url}"
