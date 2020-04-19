@@ -1,4 +1,6 @@
-# redirthis
+# PROJECT MOVED: https://github.com/devanshbatham/OpenRedireX
+
+## redirthis
 Quick script to take a list of urls and payloads and see where each url redirects to when tested with each payload.
 python 3.7+ (due to some asyncio/aiohttp features only being available in this version)
 
